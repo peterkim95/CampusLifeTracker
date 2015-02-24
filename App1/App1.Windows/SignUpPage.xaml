@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="App1.SignUpPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="199*"/>
+            <RowDefinition Height="57*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="285*"/>
+            <ColumnDefinition Width="726*"/>
+            <ColumnDefinition Width="355*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="First Name:" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="42.789" Margin="8,36.93,517.081,517.281" UseLayoutRounding="False" Width="204.979" d:LayoutRounding="Auto" FontSize="41" Grid.Column="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-0.207"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBox x:Name="FirstName" TextWrapping="Wrap" FontFamily="Global User Interface" Margin="258,33,34,508" Height="55" Width="780" TextChanged="FirstName_TextChanged" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.ColumnSpan="2" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="42.789" Margin="8,222.243,517.589,331.968" UseLayoutRounding="False" Width="204.979" d:LayoutRounding="Auto" FontSize="41" Grid.Column="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-0.207"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBox x:Name="Email" TextWrapping="Wrap" Margin="263,216,38,326" Width="780" Height="55" TextChanged="Email_TextChanged_1" FontFamily="Global User Interface" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.ColumnSpan="2" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Confirm Email:" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="42.789" Margin="8,312.661,453.773,241.55" UseLayoutRounding="False" Width="272.164" d:LayoutRounding="Auto" FontSize="41" Grid.Column="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-0.207"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBox TextWrapping="Wrap" Margin="367,306,34,236" Height="55" TextChanged="TextBox_TextChanged_2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="680" Grid.ColumnSpan="2" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="42.789" Margin="8,400.093,446.071,154.118" UseLayoutRounding="False" Width="272.164" d:LayoutRounding="Auto" FontSize="41" Grid.Column="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-0.207"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBox x:Name="LastName" TextWrapping="Wrap" Margin="258,122,34,418" TextChanged="LastName_TextChanged_4" HorizontalAlignment="Center" VerticalAlignment="Center" Width="780" Height="55" Grid.Column="1" Grid.ColumnSpan="2" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Last Name:" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="42.789" Margin="8,125.646,514.365,428.565" UseLayoutRounding="False" Width="204.979" d:LayoutRounding="Auto" FontSize="41" Grid.Column="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-0.207"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBox x:Name="Password" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Column="1" Margin="367,399,38,140" Height="55" Width="680" TextChanged="Password_TextChanged_5" Grid.ColumnSpan="2" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Confirm Password:" VerticalAlignment="Center" RenderTransformOrigin="0.508,0.584" Height="42.789" Margin="0.778,506.442,350.089,47.769" UseLayoutRounding="False" Width="375.133" d:LayoutRounding="Auto" FontSize="41" Grid.Column="1">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-0.207" TranslateX="0.014" TranslateY="-0.008"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" Height="55" Margin="363,501,38,41" TextWrapping="Wrap" VerticalAlignment="Center" Width="680" TextChanged="TextBox_TextChanged_3" FontSize="30" Grid.ColumnSpan="2"/>
+        <HyperlinkButton x:Name="signUp" Content="Sign Up" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="119,35,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="40" Background="#FF059F16" Foreground="#FFF9F9F9" Click="signUp_Click" Width="205"/>
+        <HyperlinkButton Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FFAB1515" BorderBrush="Black" Foreground="White" FontSize="40" Margin="26,30,0,0" Height="93" Width="141" Click="HyperlinkButton_Click_1"/>
+
+
+    </Grid>
+</Page>

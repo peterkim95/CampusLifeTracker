@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App1", "App1", "{F79C0A5A-D87D-4B36-ACF2-F81CD0B7CDB3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "App1.Shared", "App1\App1.Shared\App1.Shared.shproj", "{3402F417-16A2-4766-8E74-BEA3E7A57C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.Windows", "App1\App1.Windows\App1.Windows.csproj", "{7390B51B-A937-4EE3-A413-5612A8369A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.WindowsPhone", "App1\App1.WindowsPhone\App1.WindowsPhone.csproj", "{A577E523-76C6-4637-A50C-36A962A693B7}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		App1\App1.Shared\App1.Shared.projitems*{7390b51b-a937-4ee3-a413-5612a8369a0d}*SharedItemsImports = 4
+		App1\App1.Shared\App1.Shared.projitems*{3402f417-16a2-4766-8e74-bea3e7a57c4c}*SharedItemsImports = 13
+		App1\App1.Shared\App1.Shared.projitems*{a577e523-76c6-4637-a50c-36a962a693b7}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://abj-rocks.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = App1\\App1.Shared\\App1.Shared.projitems
+		SccProjectTopLevelParentUniqueName1 = App1.sln
+		SccProjectName1 = App1/App1.Shared
+		SccLocalPath1 = App1\\App1.Shared
+		SccProjectUniqueName2 = App1\\App1.Shared\\App1.Shared.shproj
+		SccProjectTopLevelParentUniqueName2 = App1.sln
+		SccProjectName2 = App1/App1.Shared
+		SccLocalPath2 = App1\\App1.Shared
+		SccProjectUniqueName3 = App1\\App1.Windows\\App1.Windows.csproj
+		SccProjectTopLevelParentUniqueName3 = App1.sln
+		SccProjectName3 = App1/App1.Windows
+		SccLocalPath3 = App1\\App1.Windows
+		SccProjectUniqueName4 = App1\\App1.WindowsPhone\\App1.WindowsPhone.csproj
+		SccProjectTopLevelParentUniqueName4 = App1.sln
+		SccProjectName4 = App1/App1.WindowsPhone
+		SccLocalPath4 = App1\\App1.WindowsPhone
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Debug|ARM.Build.0 = Debug|ARM
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Debug|ARM.Deploy.0 = Debug|ARM
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Debug|x64.ActiveCfg = Debug|x64
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Debug|x64.Build.0 = Debug|x64
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Debug|x64.Deploy.0 = Debug|x64
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Debug|x86.ActiveCfg = Debug|x86
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Debug|x86.Build.0 = Debug|x86
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Debug|x86.Deploy.0 = Debug|x86
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Release|ARM.ActiveCfg = Release|ARM
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Release|ARM.Build.0 = Release|ARM
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Release|ARM.Deploy.0 = Release|ARM
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Release|x64.ActiveCfg = Release|x64
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Release|x64.Build.0 = Release|x64
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Release|x64.Deploy.0 = Release|x64
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Release|x86.ActiveCfg = Release|x86
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Release|x86.Build.0 = Release|x86
+		{7390B51B-A937-4EE3-A413-5612A8369A0D}.Release|x86.Deploy.0 = Release|x86
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Debug|ARM.Build.0 = Debug|ARM
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Debug|ARM.Deploy.0 = Debug|ARM
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Debug|x86.ActiveCfg = Debug|x86
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Debug|x86.Build.0 = Debug|x86
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Debug|x86.Deploy.0 = Debug|x86
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Release|ARM.ActiveCfg = Release|ARM
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Release|ARM.Build.0 = Release|ARM
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Release|ARM.Deploy.0 = Release|ARM
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Release|x64.ActiveCfg = Release|Any CPU
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Release|x86.ActiveCfg = Release|x86
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Release|x86.Build.0 = Release|x86
+		{A577E523-76C6-4637-A50C-36A962A693B7}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3402F417-16A2-4766-8E74-BEA3E7A57C4C} = {F79C0A5A-D87D-4B36-ACF2-F81CD0B7CDB3}
+		{7390B51B-A937-4EE3-A413-5612A8369A0D} = {F79C0A5A-D87D-4B36-ACF2-F81CD0B7CDB3}
+		{A577E523-76C6-4637-A50C-36A962A693B7} = {F79C0A5A-D87D-4B36-ACF2-F81CD0B7CDB3}
+	EndGlobalSection
+EndGlobal

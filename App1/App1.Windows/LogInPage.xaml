@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="App1.LogInPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock TextWrapping="Wrap" Text="Username:" Margin="315,322,843,399" Height="47" Width="208" FontSize="40" SelectionChanged="TextBlock_SelectionChanged" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock TextWrapping="Wrap" Text="Password:" Margin="315,430,843,276" Height="62" Width="208" FontSize="40" RenderTransformOrigin="-0.913,4.024" HorizontalAlignment="Center"/>
+        <TextBox x:Name="Username" TextWrapping="Wrap" Margin="546,322,477,384" Height="62" Width="343" TextChanged="UsernameChanged" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40"/>
+        <TextBox x:Name="Password" TextWrapping="Wrap" Margin="546,430,477,276" Height="62" Width="343" TextChanged="PasswordTextBox" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <HyperlinkButton Content="Enter" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="574,559,644,126" Background="#FF0BE1DA" Foreground="White" FontSize="48" Click="HyperlinkButton_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="103" Margin="544,159,0,0" TextWrapping="Wrap" Text="Log In" VerticalAlignment="Top" Width="208" FontFamily="Segoe UI Black" Background="#FF0BE1DA" BorderBrush="{x:Null}" Foreground="White" FontSize="60" FontWeight="Bold"/>      
+        <HyperlinkButton Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FFBF0909" BorderBrush="Black" Foreground="White" FontSize="40" Margin="27,19,0,0" Click="HyperlinkButton_Click_2"/>
+
+    </Grid>
+</Page>
